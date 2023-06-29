@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.template-toggle-button {
+    height: 19px;
+    width: 37px;
+    background-color: rgb(211, 205, 198);
+    border-radius: 15px;
+    padding: 2px 3px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.template-tb-circle {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    background-color: white;
+    box-shadow: 1px 1px grey;
+    transition: transform 0.2s;
+}
+.template-tb-left {
+    transform: translateX(0px);
+}
+.template-tb-right {
+    transform: translateX(20px);
+}
